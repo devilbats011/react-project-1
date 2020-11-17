@@ -1,5 +1,137 @@
 .App {
-  text-align: center;
+  position: relative;
+  margin:0 auto;
+
+  /* text-align: center; */
+}
+
+.half-line {
+  background-color: rgba(0, 0, 0, 0.329);
+  height: 1px;
+  width: 45%;
+}
+
+.border-check{
+  border:1px dotted rgba(233, 31, 31, 0.808)
+}
+
+.small {
+  font-size: 12px !important;
+}
+
+.mango {
+  background-color: #fd7152 !important;
+}
+
+.mango-hover:hover {
+  color: #fd7152 !important;
+  /* text-decoration: none; */
+}
+
+.click-btn{
+  cursor: pointer;
+}
+.click-btn:hover{
+  text-decoration: underline;
+
+}
+
+.text-mango{
+  color: #fd7152;
+}
+
+.border-clear{
+  border:1px dotted transparent
+}
+.main-world{
+  position: relative;
+
+}
+.loading-overlay{
+  position: absolute;
+  z-index: 10;
+  top:0px;
+  width: 100%;
+  height: 100vh;
+  padding-bottom: 8rem;
+}
+.loading-overlay-bg {
+  z-index: 5;
+  content: "";
+  position: absolute;
+  top:0px;
+  width: 100%;
+  height: 100vh;
+  background-color: #000;
+  opacity: 0.8;
+}
+.button-loading__login {
+  position: relative;
+  top:-1rem;
+}
+.button-loading__signup {
+  position: relative;
+  top:-1rem;
+  margin: 0.2rem 0;
+}
+
+.toast_main
+{
+  position: fixed;
+  z-index:5;
+  bottom:0px;
+  left:0px;
+  width:auto;
+  height:auto;
+
+}
+
+.title-1 {
+  position: relative;
+  left:-10px;
+}
+.App-Img 
+{
+  position: relative;
+  margin:0;
+  padding:0;
+  width: 76%;
+}
+.App-main
+{ 
+  position: relative;
+  margin:0;
+  padding:0;
+  width: 80%;
+  height:auto;
+  background-color: transparent;
+}
+.btn-group-1
+{
+
+  /* width:100%; */
+}
+.btn-type-1
+{
+  text-align: left !important;
+  border-radius: 4px !important;
+  width:100%;
+  height:auto;
+  /* padding:0.4rem ;
+  padding-left: 1rem ; */
+  padding:0.4rem 0.4rem 0.4rem 1rem !important;
+  background-color: white;
+  border: 1px solid  #282c34 !important;
+  margin: 0.5rem 0;
+}
+.text-dot9rem{
+  font-size: 0.9rem;
+}
+.logo-type-1 {
+  position: relative;
+  top:-2px;
+  height:0.9rem;
+  width:1.2rem;
 }
 
 .App-logo {
